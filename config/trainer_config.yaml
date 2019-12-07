@@ -17,6 +17,7 @@ default:
     sequence_length: 64
     summary_freq: 1000
     use_recurrent: false
+<<<<<<< HEAD
     vis_encode_type: simple
     reward_signals:
         extrinsic:
@@ -31,7 +32,6 @@ DriverLearningBrain:
     buffer_size: 20240
     gamma: 0.995
     max_steps: 2e6
-
     summary_freq: 50000
     num_layers: 3
     hidden_units: 64
